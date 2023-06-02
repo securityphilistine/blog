@@ -67,7 +67,7 @@ Excitedly I plugged a Mellanox 40g MCX354A-FCBT card in and turned the machine o
 the card was functional. After a lot of troubleshooting, I realised that most Mellanox cards draw 12 volts for power. The
 USB to SATA power cable that I had, whilst SATA connectors _have_ a 12V line, would only ever be able to provide the 5V maximum from USB. 
 
-![Layout of Mellanox card](/PCIe-cage-inside.jpg)
+![Layout of Mellanox card](/pcie-cage-inside.jpg)
 
 ### Scuffed power solutions
 
@@ -310,7 +310,7 @@ there's only a mild difference of about 1 Gb/s difference in speeds. It's not qu
 have to learn about that a later time. 
 
 As far as Infiniband RDMA performance goes, it looks like bypassing the TCP/IP stack gives a boost of around 4-5 Gb/s.
-This is cool, but it's the difference between 2.7GBs a second and 3.1GBs a second. The differnt is not enough to make me
+This is cool, but it's the difference between 2.7GBs a second and 3.1GBs a second. The difference is not enough to make me
 want to drop good old fashioned ethernet. 
 
 ## Conclusion
@@ -318,7 +318,7 @@ want to drop good old fashioned ethernet.
 Whilst I knew the maximum data bandwidth through the PCIe Gen3 x4 lane would be 36Gb/s, there is a part of me that is a little
 disapointed with the results. Here I am using a 40Gb link and only realistically getting 20Gb out of it for remote shares.
 I thought perhaps I could "downgrade" to 25Gb cards, but they are much more expensive. Presumably because 40Gb is a bit of 
-a dead end hardware-wise, 25/100Gb is the next generation (hopefully they will also be dropping in price soon).  
+a dead end hardware-wise, 25/100Gb is the next generation (hopefully they will also be dropping to similar prices soon).  
 
 I run TrueNAS Scale for my NAS at home and from what I've read there isn't much support for Infiniband. It can apparently
 be hacked together in the shell, but it's not recommended and you can't do remote shares like NFS over Infiniband. 
