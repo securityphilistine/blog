@@ -11,9 +11,10 @@ permalinks:
   posts: /posts/:title/
 
 paginate: 3
+relativeURLs: true
 
-googleAnalytics: your-google-analytics-id
-disqusShortname: your-disqus-shortname
+#googleAnalytics: your-google-analytics-id
+#disqusShortname: your-disqus-shortname
 
 # Hugo Configure Markup
 # More info: https://gohugo.io/getting-started/configuration-markup#
@@ -34,7 +35,6 @@ markup:
 social:
   # e.g.
   github: https://github.com/securityphilistine 
-  twitter: https://twitter.com/cyberphilistine
   # stackoverflow: your-github-link
   # facebook: your-facebook-link
 
