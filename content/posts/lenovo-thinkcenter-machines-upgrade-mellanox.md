@@ -48,9 +48,9 @@ PCIe card in. I turned the machine on and there was no new ethernet device, it n
 cable to give the ADT-Link adapter power. It worked and my machine now has a 10g ethernet port!<br>
 
 <p float="left">
-    <img src="/adt-link-device.jpg" width="200" />
-    <img src="/tcp-link-10g-card.jpg" width="200" />
-    <img src="/usb-sata-power.jpg" width="200" />
+    <img src="/images/lenovo-mellanox-upgrade/adt-link-device.jpg" width="200" />
+    <img src="/images/lenovo-mellanox-upgrade/tcp-link-10g-card.jpg" width="200" />
+    <img src="/images/lenovo-mellanox-upgrade/usb-sata-power.jpg" width="200" />
 </p>
 
 ### Connecting Mellanox networking cards 
@@ -67,7 +67,7 @@ Excitedly I plugged a Mellanox 40g MCX354A-FCBT card in and turned the machine o
 the card was functional. After a lot of troubleshooting, I realised that most Mellanox cards draw 12 volts for power. The
 USB to SATA power cable that I had, whilst SATA connectors _have_ a 12V line, would only ever be able to provide the 5V maximum from USB. 
 
-![Layout of Mellanox card](/pcie-cage-inside.jpg)
+![Layout of Mellanox card](/images/lenovo-mellanox-upgrade/pcie-cage-inside.jpg)
 
 ### Scuffed power solutions
 
@@ -84,7 +84,7 @@ I decided to use a proper [pin jumper](https://www.amazon.co.uk/dp/B071Z31MQV?ps
 So now I have an external PSU providing SATA power to each Mellanox card in each machine. You can see I 3D printed a PCIe enclosure for these machines
 (more on that in a later blog). 
 
-![Scuffed power setup](/scuffed-power-setup.jpg)
+![Scuffed power setup](/images/lenovo-mellanox-upgrade/scuffed-power-setup.jpg)
 
 ## Testing performance
 
@@ -249,7 +249,7 @@ find a non-IPoIB method to do it, though I'm sure there is a way.
 
 First we need to install `qperf` on both machines:
 ```
-sudo apt install qperf
+sudo apt install qperfimages/lenovo-mellanox-upgrade/
 ```
 Then as with `iperf3` we need one machine (in this example `bigwakey`) to act as the server instance.
 ```
