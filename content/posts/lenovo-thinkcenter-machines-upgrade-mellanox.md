@@ -4,7 +4,6 @@ date: 2023-06-01T12:02:24+01:00
 draft: false
 tags:
  - Homelab
- - Blog
  - Lenovo
  - Small Form Factor
  - Networking

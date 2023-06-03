@@ -2,6 +2,11 @@
 title: "3d Printed Pcie Cage for Lenovo Thinkcenter Tiny"
 date: 2023-06-03T10:49:54+01:00
 draft: false
+tags:
+ - Homelab
+ - 3D Printing
+ - Lenovo
+ - Small Form Factor
 ---
 
 ![Front view](/images/3d-print-pcie-cage/pcie-cages-front.jpg)
