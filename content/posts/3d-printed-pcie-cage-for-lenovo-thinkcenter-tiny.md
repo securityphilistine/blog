@@ -1,7 +1,7 @@
 ---
 title: "3d Printed Pcie Cage for Lenovo Thinkcenter Tiny"
 date: 2023-06-03T10:49:54+01:00
-draft: true
+draft: false
 ---
 
 ![Front view](/images/3d-print-pcie-cage/pcie-cages-front.jpg)
