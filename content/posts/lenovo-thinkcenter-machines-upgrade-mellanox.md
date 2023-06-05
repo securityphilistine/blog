@@ -248,7 +248,7 @@ find a non-IPoIB method to do it, though I'm sure there is a way.
 
 First we need to install `qperf` on both machines:
 ```
-sudo apt install qperfimages/lenovo-mellanox-upgrade/
+sudo apt install qperf
 ```
 Then as with `iperf3` we need one machine (in this example `bigwakey`) to act as the server instance.
 ```
